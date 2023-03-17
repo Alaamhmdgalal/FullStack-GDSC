@@ -1,0 +1,170 @@
+.vs {
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: cadetblue;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+li {
+    display: block;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+li:hover {
+    background-color: white;
+    color: cadetblue;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+/*lma geit a3ml width w height hena mrdash yzbotha kda */
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    color: darkslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+    color: darkslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    margin: 60px;
+}
+
+.ImageContainer {
+    position: relative;
+}
+
+.BottomRight {
+    position: absolute;
+    color: white;
+    font-size: x-large;
+    right: 350px;
+    bottom: 150px;
+}
+
+.LeadMore {
+    display: flex;
+    justify-content: center;
+}
+
+.LearnMoreSmall {
+    text-align: center;
+    padding: 10px 80px;
+}
+
+button {
+    color: white;
+    border: 2px solid green;
+    background-color: green;
+    padding: 15px 32px;
+}
+
+button:hover {
+    background-color: white;
+    color: green;
+}
+
+.ApplyHere {
+    display: flex;
+    justify-content: center;
+}
+
+.ApplyHereSmall {
+    text-align: center;
+    margin: 10px;
+    padding: 10px 80px;
+}
+
+.ApplyHereImages {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.ApplyHereTitle {
+    color: darkslategray;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Contact {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.ContactSmall {
+    text-align: center;
+    margin: 10px;
+    padding: 40px 80px;
+}
+
+.ContactImages {
+    height: 40px;
+    width: 40px;
+}
+
+.footer {
+    background-color: green;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.footerText {
+    color: white;
+    font-weight: 200;
+    padding: 15px;
+}
+
+.AllIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.Icons {
+    background-color: #3C5898;
+    padding: 2px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.smallIcon {
+    height: 15px;
+    width: 15px;
+}

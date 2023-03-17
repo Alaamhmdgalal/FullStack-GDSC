@@ -1,0 +1,82 @@
+p {
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-size: x-large;
+    color: brown;
+    background-color: forestgreen;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.special {
+    margin: 15px;
+    text-align: center;
+    /* padding: 30px; */
+}
+
+button {
+    padding: 10px;
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.div1 {
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    position: relative;
+}
+
+.div2 {
+    border: 1px solid blue;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 0px;
+}
+
+.div3 {
+    border: 1px solid green;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    right: 0px;
+}
+
+.div4 {
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    top: 0px;
+}
+
+.div5 {
+    background-color: chocolate;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+/* fixed bylza2 fel mkan bta3o tol hayato "relative to browser"
+    bs el sticky byfdl f nfs mkan el html bta3o */
+
+/* absolute byroh l a2rab parent relative leh w ylza2 feh bs lazm el parent nfso yb2a relative 
+    bs el relative bytharak relative to el page nfsaha */
+
+/* you can't add margin and move the elemnt at the same time */
+
+/* flex 3shan organize el haga gowa el div "display=flex" leha direction a align items vertically
+    w justify content horizontally w align content b2a  */
+
+/* grid enta bt3ml define lel borders bta3tk msh zay flex hwa byzbatha lwahdo w hwa responsive */
+
+/* pseudo elements 3shan ahot haga abl el element bta3y aw b3dha 
+    momkn ast3mlha law h style awl letter fel kelma 
+    selection law h3ml highlight lel elements */
+
+/* hover lma a2of bel mouse 3la haga, active w visited
+    a: link { ghyary el properties hena b2a } */
