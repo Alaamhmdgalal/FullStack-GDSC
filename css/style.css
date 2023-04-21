@@ -61,6 +61,15 @@ button {
     right: 0px;
 }
 
+#here {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.jimmy {
+    border: black solid 20px;
+}
+
 /* fixed bylza2 fel mkan bta3o tol hayato "relative to browser"
     bs el sticky byfdl f nfs mkan el html bta3o */
 
