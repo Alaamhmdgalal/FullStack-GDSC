@@ -1,0 +1,25 @@
+.contact-us-main {
+    padding: 30px 50px;
+    height: 500px;
+}
+
+h2 {
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text {
+    width: 700px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategray;
+    line-height: 30px;
+}
+
+.a1 {
+    color: green;
+}
+
+.a2 {
+    font-weight: 550;
+}

@@ -1,0 +1,36 @@
+.grid-container {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    margin: 0px;
+}
+
+.one {
+    grid-row: 1;
+    grid-column: 1/2;
+}
+
+.two {
+    grid-row: 1;
+    grid-column: 2/3;
+}
+
+.three {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.four {
+    grid-row: 2;
+    grid-column: 1/2;
+}
+
+.five {
+    grid-row: 2;
+    grid-column: 2/3;
+}
+
+.six {
+    grid-row: 2;
+    grid-column: 3;
+}
