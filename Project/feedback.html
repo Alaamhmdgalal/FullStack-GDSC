@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Feedback | Coffee Shop</title>
+    <link rel="shortcut icon" href="../imgs/cup.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/project-css/feedback.css">
+    <script src="../components/header.js" type="text/javascript" defer></script>
+    <script src="../components/footer.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+    <header-component></header-component>
+    <div class="feedback">
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; line-height: 25px; font-weight: 600;">Dear
+            Customer,<br>
+            Thank you for getting your coffee from our shop. We would like to know how we performed. Please
+            spare some moments to give us your valuable feedback as it will help us in improving our service.
+        </p>
+        <form>
+            <label for="first-name">First Name: </label><br>
+            <input id="first-name" type="text" name="first-name"><br>
+            <label for="last-name">Last Name: </label><br>
+            <input id="last-name" type="text" name="last-name"><br>
+            <label for="tel">Mobile Number: </label><br>
+            <input id="tel" type="tel" name="tel"><br>
+            <label for="email">Email: </label><br>
+            <input id="email" type="email" name="email">
+        </form>
+        <script src="../js/project-js/validation.js"></script>
+        <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Please rate your service experience for the
+            following parameters</h4>
+        <form>
+            <label>1. Your overall experience with us ?</label><br>
+            <span class="star-rating">
+                <input type="radio" name="rating1" value="1"><i></i>
+                <input type="radio" name="rating1" value="2"><i></i>
+                <input type="radio" name="rating1" value="3"><i></i>
+                <input type="radio" name="rating1" value="4"><i></i>
+                <input type="radio" name="rating1" value="5"><i></i>
+            </span>
+            <hr class="survey-hr">
+            <label>2. Friendliness and courtesy shown to you while recieving your order</label><br>
+            <span class="star-rating">
+                <input type="radio" name="rating2" value="1"><i></i>
+                <input type="radio" name="rating2" value="2"><i></i>
+                <input type="radio" name="rating2" value="3"><i></i>
+                <input type="radio" name="rating2" value="4"><i></i>
+                <input type="radio" name="rating2" value="5"><i></i>
+            </span>
+            <hr class="survey-hr">
+            <label>3. Friendliness and courtesy shown to you while delivery of your order</label><br><br />
+            <div style="color:grey">
+                <span style="float:left">
+                    POOR
+                </span>
+                <span style="float:right">
+                    BEST
+                </span>
+            </div>
+            <span class="scale-rating">
+                <label value="1">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="2">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="3">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="4">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="5">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="6">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="7">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="8">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="9">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="10">
+                    <input type="radio" name="rating" value="10">
+                    <label style="width:100%;"></label>
+                </label>
+            </span>
+            <hr class="survey-hr">
+            <label for="commentText">4. Any Other suggestions:</label><br /><br />
+            <textarea cols="75" name="commentText" rows="5"></textarea><br>
+            <br>
+            <div class="clear"></div>
+            <input style="background:#43a7d5;color:#fff;padding:12px;border:0" type="submit" value="Submit your review"
+                id="result">
+        </form>
+    </div>
+    <footer-component></footer-component>
+</body>
+
+</html>
