@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Feedback | Coffee Shop</title>
+    <link rel="shortcut icon" href="../imgs/cup.png" type="image/x-icon">
+    <link rel="stylesheet" href="../coffee-shop/project-css/feedback.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+    <script src="../coffee-shop/components/header.js" type="text/javascript" defer></script>
+    <script src="../coffee-shop/components/footer.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+    <header-component></header-component>
+    <div class="feedback">
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; line-height: 25px; font-weight: 600;">Dear
+            Customer,<br>
+            Thank you for getting your coffee from our shop. We would like to know how we performed. Please
+            spare some moments to give us your valuable feedback as it will help us in improving our service.
+        </p>
+        <form name="feedback-form">
+            <label for="first-name">First Name: </label><br>
+            <input id="first-name" type="text" name="first-name" required><br>
+            <label for="last-name">Last Name: </label><br>
+            <input id="last-name" type="text" name="last-name" required><br>
+            <label for="tel">Mobile Number: </label><br>
+            <input id="tel" type="tel" name="tel" required><br>
+            <label for="email">Email: </label><br>
+            <input id="email" type="email" name="email" required>
+            <label for="commentText">Any Other suggestions:</label><br /><br />
+            <textarea cols="75" name="commentText" rows="5" required></textarea><br><br>
+            <input style="background:#43a7d5;color:#fff;padding:12px;border:0" type="submit" value="Submit your review"
+                id="submit">
+        </form>
+        <script src="../coffee-shop/project-js/validation.js"></script>
+    </div>
+    <footer-component></footer-component>
+</body>
+
+</html>

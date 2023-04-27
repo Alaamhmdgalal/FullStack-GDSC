@@ -65,15 +65,15 @@ class Header extends HTMLElement {
         }
         </style>
         <div class="top-bar">
-            <a href="../Project/homepage.html"><img src="../imgs/cup.png" class="logo"></a>
+            <a href="../coffee-shop/homepage.html"><img src="../imgs/cup.png" class="logo"></a>
             <ul class="top-nav">
-                <a href="../Project/menu.html">
+                <a href="../coffee-shop/menu.html">
                     <li>Menu</li>
                 </a>
-                <a href="../Project/about-us.html">
+                <a href="../coffee-shop/about-us.html">
                     <li>About Us</li>
                 </a>
-                <a href="../Project/contact-us.html">
+                <a href="../coffee-shop/contact-us.html">
                     <li>Contact Us</li>
                 </a>
             </ul>
