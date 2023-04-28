@@ -57,7 +57,7 @@ class HomeButton extends HTMLElement {
             <p class="text">
             Discover our items and start ordering your favourite coffee
             </p>
-            <button type="button"><a href="../Project/menu.html">Menu</a></button>
+            <button type="button"><a href="../coffee-shop/menu.html">Menu</a></button>
         </div>
         `;
     }

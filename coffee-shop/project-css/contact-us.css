@@ -24,7 +24,7 @@ h2 {
     font-weight: 550;
 }
 
-button {
+.feedback-btn {
     border-radius: 20px;
     padding: 5px;
     margin: 7px 20px;
@@ -33,7 +33,7 @@ button {
     width: 125px;
 }
 
-button:hover {
+.feedback-btn:hover {
     border: 2px solid black;
     color: black;
     background: rgba(165, 42, 42, 0.5);

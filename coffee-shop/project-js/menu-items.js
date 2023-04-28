@@ -22,14 +22,14 @@ const apiResult = [{
     description: "Description 5",
 }];
 
-const grid = document.getElementById("grid-container");
-const container = document.getElementById('item-div');
+const grid = document.getElementById("grid-container-menu");
+const container = document.getElementById('item-menu');
 
 apiResult.forEach((result, idx) => {
     // Create card element
     for (let i = 0; i < apiResult.length; i++) {
         let item_div = document.createElement("div");
-        item_div.className = 'item-div';
+        item_div.className = 'item-menu';
         grid.appendChild(item_div);
     }
 
@@ -39,7 +39,7 @@ apiResult.forEach((result, idx) => {
             <img src="${result.image}" class="item-image">
             <h2 class="item-title">${result.title}</h2>
             <p class="item-text">${result.description}</p>
-            <button type="button">Get it delivered</button>
+            <button type="button" class="menu-btn">Get it delivered</button>
         </div>
     `;
     // Append newyly created card element to the container

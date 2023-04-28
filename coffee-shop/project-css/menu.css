@@ -1,4 +1,4 @@
-#item-div {
+#item-menu {
     display: grid;
     gap: 10px;
     width: 100%;
@@ -8,6 +8,7 @@
 
 #item {
     text-align: center;
+    justify-content: center;
     margin: 10px;
     padding: 10px 80px;
     width: 250px;
@@ -22,24 +23,29 @@
 
 .item-title {
     color: darkslategray;
+    padding: 5px;
+    width: 200px;
     font-weight: 500;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .item-text {
+    padding: 5px;
+    width: 200px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-button {
+.menu-btn {
     border-radius: 20px;
-    padding: 5px;
+    margin: 0px 30px;
+    padding: 2px;
     background-color: white;
     height: 35px;
-    width: 125px;
+    width: 140px;
 }
 
-button:hover {
+.menu-btn:hover {
     border: 2px solid black;
     color: black;
     background: rgba(165, 42, 42, 0.5);

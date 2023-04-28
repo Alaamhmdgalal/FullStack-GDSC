@@ -8,11 +8,12 @@ class Header extends HTMLElement {
         <style>
         .top-bar {
             box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+            position: relative;
         }
 
         .logo {
-            padding: 10px;
-            margin-left: 30px;
+            padding: 0px;
+            margin: 10px 30px;
             height: 60px;
             width: 60px;
         }
@@ -25,23 +26,28 @@ class Header extends HTMLElement {
         }
     
         .location {
-            float: right;
+            position: absolute;
             display: flex;
             padding: 10px;
-            margin-top: 25px;
-            margin-right: 30px;
+            top: 60%;
+            left: 85%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
         }
         
         .location-text {
             padding-left: 10px;
-            margin-top: 5px;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             font-weight: 500;
         }
         
         .top-nav {
+            position: absolute;
             list-style-type: none;
-            margin: 0;
+            margin: 0px;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%); 
             display: inline-block;
         }
         
