@@ -4,14 +4,15 @@
 <head>
     <title>Feedback | Coffee Shop</title>
     <link rel="shortcut icon" href="../imgs/cup.png" type="image/x-icon">
-    <link rel="stylesheet" href="../coffee-shop/project-css/feedback.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../coffee-shop/project-css/feedback.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <script src="../coffee-shop/components/header.js" type="text/javascript" defer></script>
     <script src="../coffee-shop/components/footer.js" type="text/javascript" defer></script>
+    <script defer src="../coffee-shop/project-js/validation.js"></script>
 </head>
 
 <body>
@@ -22,21 +23,34 @@
             Thank you for getting your coffee from our shop. We would like to know how we performed. Please
             spare some moments to give us your valuable feedback as it will help us in improving our service.
         </p>
-        <form name="feedback-form">
-            <label for="first-name">First Name: </label><br>
-            <input id="first-name" type="text" name="first-name" required><br>
-            <label for="last-name">Last Name: </label><br>
-            <input id="last-name" type="text" name="last-name" required><br>
-            <label for="tel">Mobile Number: </label><br>
-            <input id="tel" type="tel" name="tel" required><br>
-            <label for="email">Email: </label><br>
-            <input id="email" type="email" name="email" required>
-            <label for="commentText">Any Other suggestions:</label><br /><br />
-            <textarea cols="75" name="commentText" rows="5" required></textarea><br><br>
-            <input style="background:#43a7d5;color:#fff;padding:12px;border:0" type="submit" value="Submit your review"
-                id="submit">
+        <form id="form" action="/">
+            <div class="input-control">
+                <label for="first-name">First Name: </label>
+                <input id="first-name" type="text" name="first-name">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="last-name">Last Name: </label>
+                <input id="last-name" type="text" name="last-name">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="tel">Mobile Number: </label>
+                <input id="tel" type="tel" name="tel">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email: </label>
+                <input id="email" type="email" name="email">
+                <div class="error"></div>
+            </div>
+            <div class="text-control">
+                <label for="commentText">Any Other suggestions:</label>
+                <textarea id="commentText" cols="75" name="commentText" rows="5"></textarea>
+                <div class="error"></div>
+            </div>
+            <button type="submit">Submit your review</button>
         </form>
-        <script src="../coffee-shop/project-js/validation.js"></script>
     </div>
     <footer-component></footer-component>
 </body>

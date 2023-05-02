@@ -1,9 +1,10 @@
 .contact-us-main {
     padding: 30px 50px;
-    height: 500px;
+    height: 550px;
 }
 
 h2 {
+    margin: 30px 0px;
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -26,7 +27,7 @@ h2 {
 
 .feedback-btn {
     border-radius: 20px;
-    padding: 5px;
+    padding: 3px;
     margin: 7px 20px;
     background-color: white;
     height: 35px;

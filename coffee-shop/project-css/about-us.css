@@ -1,10 +1,11 @@
 .about-us-main {
     padding: 20px 50px;
+    width: 900px;
 }
 
 .about-us-img {
     text-align: center;
-    width: 1080px;
+    width: 900px;
     height: 400px;
 }
 
@@ -15,6 +16,7 @@
 }
 
 .p1 {
+    margin: 15px 0px;
     font-weight: 600;
     font-style: italic;
     font-size: small;
@@ -22,7 +24,6 @@
 }
 
 .p2 {
-    width: 1080px;
     line-height: 30px;
     font-size: small;
     color: darkslategray;

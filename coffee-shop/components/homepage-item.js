@@ -27,7 +27,7 @@ class HomeButton extends HTMLElement {
         }
 
         .text {
-            margin: 16px 20px;
+            margin: 10px 20px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
